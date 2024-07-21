@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Feedback</title>
+        <style>
+            h1{
+                text-align: center;
+                padding-top: 3%;
+                text-shadow: 10px 10px 10px white;
+                font-size: 50px;
+            }
+            table{
+                border-spacing: 20px;
+                
+            }
+            table tr td{
+
+                font-size: 25px;
+            }
+            div{
+                box-shadow: 3px 5px 13px 15px black;
+                margin-left: 30%;
+                margin-right: 30%;
+            }
+            body{
+                background-image: url("feedback.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+        </style>
+    </head>
+    <body><form action="feedbacksuccess.html">
+        <h1>Feedback Form</h1>
+        <div>
+        <center><table>
+            <tr><td>Name : </td>
+            <td><input type="text" required placeholder="Enter name" ></td></tr>
+            <tr><td>Email:</td>
+                <td><input type="email" placeholder="enter email" required></td></tr>
+                <tr>
+                <td>Phone:</td>
+                <td><input type="tel" pattern="[0-9]{10}" placeholder="enter 123-456-7890 format" required></td>
+            </tr>
+
+        </table><textarea rows="10" cols="50">Text area....</textarea><br><br>
+    <input type="submit"><br></center><br></div></form>
+    </body>
+</html>

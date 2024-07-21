@@ -1,0 +1,60 @@
+nav{
+    
+    padding: 15px;
+    margin: 10;
+}
+nav ul{
+    text-align: center;
+    list-style-type: none;
+    font-size: 22px;
+    padding: 10px;  
+}
+nav h1{
+    color: rgb(132, 0, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav ul li a{
+    text-align: center;
+    color: rgb(97, 3, 84);
+    font-family: cursive;
+}
+nav ul li{
+    padding: 10px;
+    display: inline;
+}
+footer{
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+p{
+    text-align: center;
+    color: blue;
+    text-shadow: rosybrown;
+    size: 50px;
+}
+h1{
+    color:blueviolet;
+    text-align: center;
+    text-decoration: solid;
+}
+body{
+    color:black;
+    text-align:center;
+    background-size: cover;
+}
+h3{
+    text-align: center;
+    text-decoration: solid;
+    color:black
+}
+h4{
+    text-align: center;
+    text-decoration: solid;
+    color:pink
+}
+h5{
+    text-align: center;
+    text-decoration: solid;
+    color:yellowgreen
+}
